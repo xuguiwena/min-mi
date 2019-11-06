@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    font: 12px "微软雅黑", Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #898989;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+i em {
+    font-style: normal;
+}
+
+img {
+    vertical-align: top;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    width: 1228px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
