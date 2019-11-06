@@ -1,0 +1,61 @@
+[
+    {"type":"小米9 Pro 5G","title":"5G双卡全网通，骁龙855Plus","imgurl":"img/a1.webp","Nprice":"3699元","Yprice":"","code":"a_a1"},
+    {"type":"Redmi 8","title":"5000mAh超长续航","imgurl":"img/a2.webp","price":"749元","Yprice":"799元","code":"a_a2"},
+    {"type":"Redmi Note 8 Pro","title":"6400万全场景四摄","imgurl":"img/a.webp","price":"1299元起","Yprice":"1399元","code":"a_a3"},
+    {"type":"Redmi Note 8","title":"千元4800万四摄","imgurl":"img/a.webp","price":"999元起","Yprice":"","code":"a_a4"},
+    {"type":"Redmi K20 Pro 尊享版","title":"骁龙855 Plus， 弹出全面屏","imgurl":"img/a.webp","price":"2699元起","Yprice":"","code":"a_a5"},
+    {"type":"Redmi Note 7","title":"4800万拍照千元机","imgurl":"img/a.webp","price":"1099元","Yprice":"","code":"a_a6"},
+    {"type":"Redmi 7","title":"4000mAh超长续航","imgurl":"img/a.webp","price":"899元","Yprice":"999元","code":"a_a7"},
+    {"type":"Redmi 7A","title":"小巧大电量 持久流畅","imgurl":"img/a.webp","price":"539元起","Yprice":"599元","code":"a_a8"},
+
+    {"type":"米家互联网空调C1（一级能效）","title":"变频节能省电，自清洁","imgurl":"img/b1.webp","Nprice":"2249元","Yprice":"2279元","code":"b_b1"},
+    {"type":"米家空调","title":"出众静音，快速制冷热","imgurl":"img/b2.jpg","Nprice":"1549元","Yprice":"1799元","code":"b_b2"},
+    {"type":"米家互联网洗烘一体机 Pro 10kg","title":"智能洗烘，省心省力","imgurl":"img/b3.webp","Nprice":"2999元","Yprice":"","code":"b_b3"},
+    {"type":"小米电视4A 32英寸","title":"人工智能系统，高清液晶屏","imgurl":"img/b4.jpg","Nprice":"688元","Yprice":"799元","code":"b_b4"},
+    {"type":"Redmi全自动波轮洗衣机1A 8kg","title":"一键操作，父母都爱用","imgurl":"img/b5.webp","Nprice":"699元","Yprice":"799元","code":"b_b5"},
+    {"type":"小米全面屏电视E55A","title":"全面屏设计，人工智能语音","imgurl":"img/b6.webp","Nprice":"1699元","Yprice":"2099元","code":"b_b6"},
+    {"type":"15.6 四核i7 16G 独显 512G","title":"全面均衡的国民轻薄本","imgurl":"img/b7.webp","Nprice":"4699元","Yprice":"4899元","code":"b_b7"},
+
+
+    {"type":"米家互联网空调C1（一级能效）","title":"变频节能省电，自清洁","imgurl":"img/b1.webp","Nprice":"2249元","Yprice":"2279元","code":"b_b1"},
+    {"type":"米家空调","title":"出众静音，快速制冷热","imgurl":"img/b2.jpg","Nprice":"1549元","Yprice":"1799元","code":"b_b2"},
+    {"type":"米家互联网洗烘一体机 Pro 10kg","title":"智能洗烘，省心省力","imgurl":"img/b3.webp","Nprice":"2999元","Yprice":"","code":"b_b3"},
+    {"type":"小米电视4A 32英寸","title":"人工智能系统，高清液晶屏","imgurl":"img/b4.jpg","Nprice":"688元","Yprice":"799元","code":"b_b4"},
+    {"type":"Redmi全自动波轮洗衣机1A 8kg","title":"一键操作，父母都爱用","imgurl":"img/b5.webp","Nprice":"699元","Yprice":"799元","code":"b_b5"},
+    {"type":"小米全面屏电视E55A","title":"全面屏设计，人工智能语音","imgurl":"img/b6.webp","Nprice":"1699元","Yprice":"2099元","code":"b_b6"},
+    {"type":"15.6 四核i7 16G 独显 512G","title":"全面均衡的国民轻薄本","imgurl":"img/b7.webp","Nprice":"4699元","Yprice":"4899元","code":"b_b7"},
+
+
+    {"type":"小米「小爱老师」","title":"口袋里的英语外教","imgurl":"img/c1.webp","Nprice":"449元起","Yprice":"449元","code":"c_c1"},
+    {"type":"小米米家智能门锁 推拉式","title":"一步推拉，高端智能门锁","imgurl":"img/c2.webp","Nprice":"1699元","Yprice":"","code":"c_c2"},
+    {"type":"一步推拉，高端智能门锁","title":"听音乐、语音遥控家电","imgurl":"img/c3.webp","Nprice":"169元","Yprice":"","code":"c_c3"},
+    {"type":"小爱音箱万能遥控版","title":"传统家电秒变智能","imgurl":"img/c4.webp","Nprice":"199元","Yprice":"","code":"c_c4"},
+    {"type":"米家电饭煲4L","title":"890W 立体加热 ","imgurl":"img/c5.webp","Nprice":"249元","Yprice":"299元","code":"c_c5"},
+    {"type":"小米手环4","title":"大屏彩显，20天超长续航","imgurl":"img/c6.webp","Nprice":"169元","Yprice":"","code":"c_c6"},
+    {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮”","imgurl":"img/c7.webp","Nprice":"999元","Yprice":"","code":"c_c7"},
+    
+    {"type":"小米真无线蓝牙耳机 Air 2","title":"智能真无线，轻松舒适戴","imgurl":"img/d1.webp","Nprice":"399元","Yprice":"","code":"d_d1"},
+    {"type":"高速无线充套装","title":"快速无线闪充，Qi充电标准","imgurl":"img/d2.webp","Nprice":"149元","Yprice":"","code":"d_d2"},
+    {"type":"Redmi充电宝 10000mAh 标准版 白色","title":"快速10000mAh大电量 高效，安全稳定","imgurl":"img/d3.webp","Nprice":"59元","Yprice":"","code":"d_d3"},
+    {"type":"Redmi充电宝 20000mAh 快充版","title":"大容量，可上飞机","imgurl":"img/d4.webp","Nprice":"99元","Yprice":"","code":"d_d4"},
+    {"type":"小米插线板 5孔位","title":"多重安全保护","imgurl":"img/d5.jpg","Nprice":"39元","Yprice":"","code":"d_d5"},
+    {"type":"小米蓝牙耳机AirDots青春版","title":"雅致简约，收纳充电盒","imgurl":"img/d6.jpg","Nprice":"199元","Yprice":"","code":"d_d6"},
+    {"type":"小米小爱蓝牙音箱 随身版","title":"小巧便携，一键唤醒小爱","imgurl":"img/d7.jpg","Nprice":"49元","Yprice":"","code":"d_d7"},         
+
+    {"type":"27W高速充电插头","title":"快速高效，安全稳定","imgurl":"img/e1.webp","Nprice":"49元","Yprice":"","code":"e_e1"},
+    {"type":"小米USB充电器30W快充版（1A1C）","title":"多一种接口，多一种选择","imgurl":"img/e2.webp","Nprice":"59元","Yprice":"","code":"e_e2"},
+    {"type":"小米USB-C数据线 编织线版","title":"高强度纤维编制线体","imgurl":"img/e3.jpg","Nprice":"18.9元起","Yprice":"","code":"e_e3"},
+    {"type":"ZMI USB Type-C 转 Lightning 数据线","title":"MFi官方认证，3A大流量，12个月质保","imgurl":"img/e4.webp","Nprice":"59元","Yprice":"","code":"e_e4"},
+    {"type":"高速无线充套装","title":"快速无线闪充，Qi充电标准","imgurl":"img/e5.webp","Nprice":"149元","Yprice":"","code":"e_e5"},
+    {"type":"小米无线充电宝青春版10000mAh","title":"能量满满，无线有线都能充","imgurl":"img/e6.webp","Nprice":"129元","Yprice":"","code":"e_e6"},
+    {"type":"米家LED随身灯","title":"小巧轻便 5级亮度调节","imgurl":"img/e7.jpg","Nprice":"19.9元","Yprice":"","code":"e_e7"},
+
+    {"type":"米家飞行员太阳镜 Pro","title":"尼龙偏光，轻巧佩戴","imgurl":"img/f1.webp","Nprice":"179元","Yprice":"199元","code":"f_f1"},
+    {"type":"小米巨能写中性笔10支装","title":"一支顶4支，超长顺滑书写","imgurl":"img/f2.webp","Nprice":"9.99元","Yprice":"","code":"f_f2"},
+    {"type":"小米旅行箱 20英寸 布朗熊限量版","title":"“国际巨星” LINE FRIENDS布朗熊","imgurl":"img/f3.webp","Nprice":"369元","Yprice":"399元","code":"f_f3"},
+    {"type":"米家迷你保温杯","title":"可以随身携带的温度","imgurl":"img/f4.webp","Nprice":"49元","Yprice":"","code":"f_f4"},
+    {"type":"米家驱蚊器基础版 3个装","title":"3个装 长效驱蚊","imgurl":"img/f5.webp","Nprice":"99元","Yprice":"129元","code":"f_f5"},
+    {"type":"3卷装抽绳式垃圾袋","title":"让清洁更简单","imgurl":"img/f6.webp","Nprice":"14.9元","Yprice":"","code":"f_f6"},
+    {"type":"贝医生巴氏牙刷 四色装","title":"进口刷毛，好品质","imgurl":"img/f7.jpg","Nprice":"37.9元","Yprice":"39.9","code":"f_f7"}
+
+]  
