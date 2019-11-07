@@ -1,0 +1,100 @@
+.siteNav {
+    height: 40px;
+    background: #333;
+}
+
+
+/* 站点版心 */
+
+.siteNav .container {
+    height: 40px;
+}
+
+
+/* 站点城市切换 */
+
+.siteLeft {
+    position: relative;
+    height: 40px;
+    float: left;
+}
+
+.siteLeft .show {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.siteLeft #list {
+    display: none;
+}
+
+
+/* 站点导航 */
+
+.siteNav .siteCenter {
+    height: 40px;
+    float: left;
+    margin-left: 50px;
+}
+
+.siteNav .siteCenter li {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 6px;
+    color: #393e3e;
+}
+
+.siteNav .siteCenter a {
+    color: #a4b0b0;
+}
+
+.siteNav .siteCenter a:hover {
+    color: white;
+}
+
+
+/* 站点登陆和购物车模块 */
+
+.siteNav .siteRight {
+    height: 40px;
+    float: right;
+}
+
+.siteNav .siteRight ul {
+    float: left;
+}
+
+.siteNav .siteRight li {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    color: #393e3e;
+    margin-left: 3px;
+}
+
+.siteNav .siteRight a {
+    color: #a4b0b0;
+}
+
+.siteNav .siteRight a:hover {
+    color: white;
+}
+
+.siteNav .car {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 25px;
+    width: 119px;
+    text-align: center;
+}
+
+
+/* 这里如果没有.siteRight这个父级的话，样式渲染不到 */
+
+.siteNav .siteRight .car:hover {
+    color: #ff6700;
+    background-color: #fff;
+}
