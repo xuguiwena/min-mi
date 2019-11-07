@@ -1,0 +1,17 @@
+#nav{
+    height: 100px;
+    background-color: #eeeeee;
+}
+.swiper-container{
+    height: 620px;
+}
+.swiper-wrapper {
+    width: 2560px;
+    height: 620px;
+    background-color: #eeeeee;
+    text-align: center;
+
+}
+.swiper-wrapper img{
+    margin-left: -1280px;
+}
