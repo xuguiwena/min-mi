@@ -82,7 +82,7 @@ switch($act){
 		$row = mysqli_fetch_array($res);
 		
 		if((int)$row[0]>0){
-			echo {"err":"0","msg":"登陆成功"};
+			echo '{"err":"0","msg":"登陆成功"}';
 			exit();
 		}else{
 			echo '{"err":"1","msg":"用户名或密码有误"}';

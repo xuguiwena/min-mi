@@ -1,0 +1,85 @@
+body{
+    background: rgb(249, 249, 249);
+}
+.b_content{
+    width: 854px;
+    height: 548px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+}
+.b_mi{
+    width: 100%;
+    height: 88px;
+}
+.b_mi a{
+    display: block;
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+}
+.b_content h4{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.b_box{
+    width: 786px;
+    height: 385px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.b_input input{
+    display: block;
+    width: 312px;
+    height: 22px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.b_reg_btn{
+    width: 332px;
+    height: 42px;
+    background: #ff6700;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.b_reg_btn a{
+    color: #fff;
+}
+.b_box p{
+    color: #9d9d9d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+}
+.b_footer{
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 720px;
+    margin: 0 auto;
+}
+.b_a{
+    text-align: center;
+}
+.b_a a{
+    font-size: 14px;
+    margin: 0 10px;
+}
+.b_footer p{
+    font-size: 14px;
+    color: #757575;
+    margin-top: 10px;
+}
