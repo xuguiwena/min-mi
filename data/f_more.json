@@ -1,0 +1,129 @@
+{
+    "newProducts":[
+        {"type":"小米手环4","title":"大屏彩显，20天超长续航","imgurl":"img/f_parts04.png","Nprice":"169","Yprice":"","code":"f_a1"},
+
+        {"type":"小米「小爱老师」","title":"口袋里的英语外教 ","imgurl":"img/f_parts05.jpg","Nprice":"449","Yprice":"499元","code":"f_a2"},
+
+        {"type":"米家互联网烟灶套装（液化石油气）","title":"点火排烟，风随火动 ","imgurl":"img/f_parts06.jpg","Nprice":"1999","Yprice":"2298元","code":"f_a3"},
+
+        {"type":"小爱音箱万能遥控版","title":"传统家电秒变智能 ","imgurl":"img/f_parts07.jpg","Nprice":"199","Yprice":"","code":"f_a4"},
+
+        {"type":"小米小爱音箱 Play","title":"小米小爱音箱 Play","imgurl":"img/f_parts08.jpg","Nprice":"169","Yprice":"","code":"f_a5"},
+
+        {"type":"米家智能门锁 推拉式 ","title":"一步推拉，高端智能门锁 ","imgurl":"img/f_parts09.jpg","Nprice":"1699","Yprice":"","code":"f_a6"},
+
+        {"type":"米家电饭煲4L","title":"890W 立体加热  ","imgurl":"img/f_parts10.jpg","Nprice":"299","Yprice":"","code":"f_a7"},
+
+        {"type":"米家电烤箱","title":"全能烘焙体验 ","imgurl":"img/f_parts11.jpg","Nprice":"299","Yprice":"","code":"f_a8"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts12.jpg","Nprice":"999","Yprice":"","code":"f_a9"},
+
+        {"type":"小白智能摄像机 电池版","title":"无需布线 安装更省心 ","imgurl":"img/f_parts13.jpg","Nprice":"349","Yprice":"399元","code":"f_a10"}
+    ],
+    "hotSale":[
+        {"type":"小米「小爱老师」","title":"口袋里的英语外教 ","imgurl":"img/f_parts15.jpg","Nprice":"449","Yprice":"499元","code":"f_b1"},
+
+        {"type":"米家互联网烟灶套装（液化石油气）","title":"点火排烟，风随火动 ","imgurl":"img/f_parts16.jpg","Nprice":"1999","Yprice":"2298元","code":"f_b2"},
+
+        {"type":"小爱音箱万能遥控版","title":"传统家电秒变智能 ","imgurl":"img/f_parts17.jpg","Nprice":"199","Yprice":"","code":"f_b3"},
+
+        {"type":"小米小爱音箱 Play","title":"小米小爱音箱 Play","imgurl":"img/f_parts18.jpg","Nprice":"169","Yprice":"","code":"f_b4"},
+
+        {"type":"米家智能门锁 推拉式 ","title":"一步推拉，高端智能门锁 ","imgurl":"img/f_parts19.jpg","Nprice":"1699","Yprice":"","code":"f_b5"},
+
+        {"type":"米家电饭煲4L","title":"890W 立体加热  ","imgurl":"img/f_parts20.jpg","Nprice":"299","Yprice":"","code":"f_b6"},
+
+        {"type":"米家电烤箱","title":"全能烘焙体验 ","imgurl":"img/f_parts21.jpg","Nprice":"299","Yprice":"","code":"f_b7"},
+
+        {"type":"米家电烤箱","title":"全能烘焙体验 ","imgurl":"img/f_parts22.jpg","Nprice":"299","Yprice":"","code":"f_b8"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts23.jpg","Nprice":"999","Yprice":"","code":"f_b9"},
+        
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts24.jpg","Nprice":"999","Yprice":"","code":"f_b10"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts19.jpg","Nprice":"999","Yprice":"","code":"f_b11"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts25.jpg","Nprice":"999","Yprice":"","code":"f_b12"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts26.jpg","Nprice":"999","Yprice":"","code":"f_b13"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts28.jpg","Nprice":"999","Yprice":"","code":"f_b14"}
+    ],
+    "smartAppliance":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts29.jpg","Nprice":"999","Yprice":"","code":"f_c1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts23.jpg","Nprice":"999","Yprice":"","code":"f_c2"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts21.jpg","Nprice":"999","Yprice":"","code":"f_c3"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts30.jpg","Nprice":"999","Yprice":"","code":"f_c4"}
+    ],
+    "toys":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts31.jpg","Nprice":"999","Yprice":"","code":"f_d1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts32.jpg","Nprice":"999","Yprice":"","code":"f_d2"}
+    ],
+    "smarttravel":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts33.jpg","Nprice":"999","Yprice":"","code":"f_e1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts34.jpg","Nprice":"999","Yprice":"","code":"f_e2"}
+    ],
+    "patchPanel":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts35.jpg","Nprice":"999","Yprice":"","code":"f_f1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts36.jpg","Nprice":"999","Yprice":"","code":"f_f2"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts37.jpg","Nprice":"999","Yprice":"","code":"f_f3"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts38.jpg","Nprice":"999","Yprice":"","code":"f_f4"}
+    ],
+    "goodSound":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts39.jpg","Nprice":"999","Yprice":"","code":"f_g1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts40.jpg","Nprice":"999","Yprice":"","code":"f_g2"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts41.jpg","Nprice":"999","Yprice":"","code":"f_g3"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts42.jpg","Nprice":"999","Yprice":"","code":"f_g4"}
+    ],
+    "lampTools":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts43.png","Nprice":"999","Yprice":"","code":"f_h1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts44.jpg","Nprice":"999","Yprice":"","code":"f_h2"}
+    ],
+    "smartWear":[],
+    "router":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts45.jpg","Nprice":"999","Yprice":"","code":"f_i1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts46.jpg","Nprice":"999","Yprice":"","code":"f_i2"}
+    ],
+    "clean":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts20.jpg","Nprice":"999","Yprice":"","code":"f_j1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts47.jpg","Nprice":"999","Yprice":"","code":"f_j2"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts24.jpg","Nprice":"999","Yprice":"","code":"f_j3"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts23.jpg","Nprice":"999","Yprice":"","code":"f_j4"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts48.jpg","Nprice":"999","Yprice":"","code":"f_j5"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts49.jpg","Nprice":"999","Yprice":"","code":"f_j6"}
+    ],
+    "monitoring":[],
+    "parts":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts51.jpg","Nprice":"999","Yprice":"","code":"f_k1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts52.jpg","Nprice":"999","Yprice":"","code":"f_k2"}
+    ],
+    "source":[
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts54.jpg","Nprice":"999","Yprice":"","code":"f_l1"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts55.jpg","Nprice":"999","Yprice":"","code":"f_l2"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts56.jpg","Nprice":"999","Yprice":"","code":"f_l3"},
+
+        {"type":"米家九号平衡轮","title":"能花式酷玩的“风火轮” ","imgurl":"img/f_parts57.jpg","Nprice":"999","Yprice":"","code":"f_l4"}
+    ]
+
+}
