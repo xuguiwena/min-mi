@@ -26,16 +26,14 @@ user.value=localStorage.getItem("user");
 
 
 b_logo_btn.onclick=function(){
-    console.log(this.getAttribute('name'));
     ajax({
         url:'./data/login2.php',
         type:'get',
         data:'user='+user.value+'&pass='+password.value+'&act='+this.getAttribute('name'),
         success:function(json){
             var data=JSON.parse(json)
-            if(data.msg=='登入成功'){
-                remove('username');
-                setCookie("username",user.value,1);
+            if(data.msg=='登陆成功'){
+                setCookie("username",user.value,1)
                 location.href='./b_shopcar.html';
             }
         }

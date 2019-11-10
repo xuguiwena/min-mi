@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="./css/b_shopcar.css">
     <title>我的购物车-小米商城</title>
 </head>
+
 <body>
     <div class="b_head">
         <div class="b_headbx">
@@ -21,12 +23,118 @@
                 <span>|</span>
                 <a href="./b_register.html">注册</a>
             </div>
+            <div class="b_user">
+                <div class="b_le">
+                    <span class="b_nane">南笙</span>
+                    <ul class="b_ul">
+                        <li>个人中心</li>
+                        <li>评价晒单</li>
+                        <li>我的喜欢</li>
+                        <li>小米帐号</li>
+                        <li>退出登录</li>
+                    </ul>
+                </div>
+                <span>|</span>
+                <div class="b_ri">我的订单</div>
+            </div>
         </div>
     </div>
     <div class="b_gwc">
+        <div class="b_wenzi">
+            <h2>您的购物车还是空的！</h2>
+            <p class="b_p">登录后将显示您之前加入的商品</p>
+            <div class="b_btn">
+                <span class="b_btn1">立即登录</span>
+                <span class="b_btn2">马上去购物</span>
+            </div>
+        </div>
+        <div class='b_shop'>
+            <div class="b_gwchead clearfix">
+                <div>
+                    <input type="checkbox" id="checkid">
+                    <span>全选</span>
+                </div>
+                <div></div>
+                <div>商品名称</div>
+                <div>单价</div>
+                <div>数量</div>
+                <div>小计</div>
+                <div>操作</div>
+            </div>
+            <div class="b_splb clearfix">
 
+            </div>
+            <!-- <div class="b_gwccot clearfix">
+                <div>
+                    <input type="checkbox">
+                    <span></span>
+                </div>
+                <div><img src="img/b_gwcimg/a1.webp" alt=""></div>
+                <div>小米CC9 Pro 6GB+128GB</div>
+                <div>2799元</div>
+                <div>
+                    <div class="b_anniu">
+                        <a href="javascript:;">+</a>
+                        <input type="text" value="1" class="input">
+                        <a href="javascript:;">-</a>
+                    </div>
+                </div>
+                <div>2799元</div>
+                <div><span>X</span></div>
+            </div> -->
+        </div>
+    </div>
+    <!-- 为你推荐 -->
+    <div class="b_hr">
+        <hr>
+        <div>为你推荐</div>
+    </div>
+    <div class="b_shang clearfix">
+        <!-- <div class="b_s1">
+            <div><img src="./img/b_gwcimg/a1.webp" alt=""></div>
+            <h3>小米CC9 Pro 8GB+128GB</h3>
+            <strong>3099元</strong>
+            <span>加入购物车</span>
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div>
+        <div class="b_s1">
+            
+        </div> -->
+    </div>
+    <div class="bg_foot">
+        <div class="foot"></div>
     </div>
 </body>
 <script src="./js/b_gj.js"></script>
+<script src="http://libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script>
+$(function(){
+    $('.foot').load('./comm/footer.html')
+})
+</script>
 <script src="./js/b_shopcar.js"></script>
+
 </html>
