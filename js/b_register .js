@@ -1,47 +1,27 @@
-var b_btn1=document.querySelector('.b_btn1');
-var b_btn2=document.querySelector('.b_btn2');
-var b_btn1Box=document.querySelector('.b_btn1Box');
-var b_btn2Box=document.querySelector('.b_btn2Box');
-var b_logo_btn=document.querySelector('.b_logo_btn');
-
-b_btn1.onclick=function(){
-    b_btn1Box.classList.add('active');
-    b_btn2Box.classList.remove('active');
-    this.classList.add('col');
-    b_btn2.classList.remove('col');
-    
-};
-b_btn2.onclick=function(){
-    b_btn2Box.classList.add('active');
-    b_btn1Box.classList.remove('active');
-    this.classList.add('col');
-    b_btn1.classList.remove('col');
-    
-};
-
 var user=document.getElementById('user');
 var password=document.getElementById('password');
+var b_reg_btn=document.querySelector('.b_reg_btn')
 
-user.value=localStorage.getItem("user");
 
-
-b_logo_btn.onclick=function(){
+b_reg_btn.onclick=function(){
+    console.log(this.getAttribute('name'));
     ajax({
         url:'./data/login2.php',
         type:'get',
         data:'user='+user.value+'&pass='+password.value+'&act='+this.getAttribute('name'),
         success:function(json){
-            var data=JSON.parse(json)
-            if(data.msg=='登陆成功'){
-                setCookie("username",user.value,1)
-                location.href='./b_shopcar.html';
-            }
+            var data=JSON.parse(json);
+            if(data.msg=='注册成功'){
+                localStorage.setItem("user",user.value);
+                location.href='b_login.html';
+            }else{
+                alert(data.msg);
+                user.value='';
+                password.value='';
+            };
         }
     });
 };
-
-
-
 
 
 

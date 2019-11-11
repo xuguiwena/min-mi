@@ -1,50 +1,34 @@
-var b_btn1=document.querySelector('.b_btn1');
-var b_btn2=document.querySelector('.b_btn2');
-var b_btn1Box=document.querySelector('.b_btn1Box');
-var b_btn2Box=document.querySelector('.b_btn2Box');
-var b_logo_btn=document.querySelector('.b_logo_btn');
-
-b_btn1.onclick=function(){
-    b_btn1Box.classList.add('active');
-    b_btn2Box.classList.remove('active');
-    this.classList.add('col');
-    b_btn2.classList.remove('col');
-    
-};
-b_btn2.onclick=function(){
-    b_btn2Box.classList.add('active');
-    b_btn1Box.classList.remove('active');
-    this.classList.add('col');
-    b_btn1.classList.remove('col');
-    
-};
-
-var user=document.getElementById('user');
-var password=document.getElementById('password');
-
-user.value=localStorage.getItem("user");
+// 设置cookie函数
+function setCookie(key,val,day){
+    if(day){
+        var d=new Date();
+        d.setDate(d.getDate()+day)
+        document.cookie=key+'='+escape(val)+';expires='+d;
+    }else{
+        document.cookie=key+'='+escape(val);
+    }
+}
 
 
-b_logo_btn.onclick=function(){
-    ajax({
-        url:'./data/login2.php',
-        type:'get',
-        data:'user='+user.value+'&pass='+password.value+'&act='+this.getAttribute('name'),
-        success:function(json){
-            var data=JSON.parse(json)
-            if(data.msg=='登陆成功'){
-                setCookie("username",user.value,1)
-                location.href='./b_shopcar.html';
-            }
+// 获取cookie
+function getCookie(key){
+    var arr=document.cookie.split('; ');
+    for(var i=0,len=arr.length;i<len;i++){
+        var arr1=arr[i].split('=')
+        if(arr1[0]==key){
+            return unescape(arr1[1]);
         }
-    });
-};
+    }
+    return null;
+}
 
 
+// 删除cookie
+function remove(key){
+    setCookie('key','333',-3)
+}
 
-
-
-
+//ajax
 function ajax(option){
     // 1.创建XMLHttpRequest对象(数据交互对象)
     if (window.XMLHttpRequest) {
