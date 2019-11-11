@@ -9,6 +9,8 @@ var b_wenzi=document.querySelector('.b_wenzi')
 var b_gwc=document.querySelector('.b_gwc')
 var b_splb=document.querySelector('.b_splb')
 var b_shop=document.querySelector('.b_shop')
+var b_b1=document.querySelector('.b_b1')
+var b_b2=document.querySelector('.b_b2')
 
 
 
@@ -103,7 +105,8 @@ function han(){
                     if($(this).next().val()<1){
                         $(this).next().val(1)
                     }
-                    
+                    arrcd=JSON.parse(localStorage.getItem("shop")).code
+                    arrnum=JSON.parse(localStorage.getItem("shop")).num
                     var dex=arrcd.indexOf($(this).parent().parent().parent().attr('code'))
                     arrnum[dex]=$(this).next().val()
                     var shopobj=JSON.stringify({"code":arrcd,"num":arrnum})
@@ -113,7 +116,8 @@ function han(){
     
                 $('.b_gwccot').on('click','.btn_right',function(){
                     $(this).prev().val($(this).prev().val()-0+1)
-    
+                    arrcd=JSON.parse(localStorage.getItem("shop")).code
+                    arrnum=JSON.parse(localStorage.getItem("shop")).num
                     var dex=arrcd.indexOf($(this).parent().parent().parent().attr('code'))
                     arrnum[dex]=$(this).prev().val()
                     var shopobj=JSON.stringify({"code":arrcd,"num":arrnum})
@@ -125,8 +129,18 @@ function han(){
                 // 全选
                 $('#checkid').click(function(){
                    $('.b_splb input').prop('checked',$(this).prop('checked'))
+                   var a=0
+                   var sum=0
+                    for(var i=0;i<$('.checkAll').length;i++){
+                        if($('.checkAll').eq(i).prop('checked')){
+                            a+=1
+                            sum+=parseInt($('.checkAll').eq(i).parent().next().next().next().next().next().html())
+                        }
+                    }
+                    $('.b_b2').html(a)
+                    $('.b_em').html(sum)
                 })
-
+                // 单选
                 $('.b_splb').on('click','.checkAll',function(){
                     var bool=true;
                     $('.checkAll').each(function(index,val){
@@ -136,7 +150,17 @@ function han(){
                             return;
                         }
                     });
-                        $('#checkid').prop('checked',bool)
+                    $('#checkid').prop('checked',bool)
+                    var a=0
+                    var sum=0
+                    for(var i=0;i<$('.checkAll').length;i++){
+                        if($('.checkAll').eq(i).prop('checked')){
+                            a+=1
+                            sum+=parseInt($('.checkAll').eq(i).parent().next().next().next().next().next().html())
+                        }
+                    }
+                    $('.b_b2').html(a)
+                    $('.b_em').html(sum)
                 })
                 
             }
@@ -249,11 +273,25 @@ function jia() {
         b_gwc.style.background='none'
         b_shop.style.display='block'
         b_wenzi.style.display='none'
+        
     }else{
         b_gwc.style.background='url("img/b_gwcimg/b1.png") no-repeat 120px 0'
         b_wenzi.style.display='block'
         b_shop.style.display='none'
     }
 
+    var arrcd=JSON.parse(localStorage.getItem("shop")).code
+    b_b1.innerHTML=arrcd.length
 
+
+    var a=0
+    var sum=0
+    for(var i=0;i<$('.checkAll').length;i++){
+        if($('.checkAll').eq(i).prop('checked')){
+            a+=1
+            sum+=parseInt($('.checkAll').eq(i).parent().next().next().next().next().next().html())
+        }
+    }
+    $('.b_b2').html(a)
+    $('.b_em').html(sum)
 }
