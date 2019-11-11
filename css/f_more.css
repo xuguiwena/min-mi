@@ -9,8 +9,8 @@
 .swiperBox{
     width: 2560px;
     height: 620px;
-    
-}
+    overflow: hidden;
+} 
 .swiperBox img {
     width: 100%;
     display: none;
@@ -49,9 +49,10 @@
     width: 100%;
     background-color: #f5f5f5;
     padding-bottom: 70px;
+    margin: 0 auto;
 }
 .goods_inner{
-    margin-left: 62px;
+    width: 1240px;
 }
 .goods_inner h2{
     line-height: 64px;
@@ -62,6 +63,7 @@
 .goodsCommon{
     padding-top: 14px;
     min-height: 100px;
+    margin-left: 12px;
 }
 .goods_inner ul{
     margin-top: 10px;
@@ -73,7 +75,7 @@
     background-color: #fff;
     position: relative;
     float: left;
-    margin-right: 14px;
+    margin-right: 8px;
     margin-top: 14px;
     transition: all 0.2s linear;
 
@@ -132,6 +134,7 @@
     height: 434px;
     overflow: hidden;
     background-color: #fff;
+
 }
 #li_left{
     width: 854px;

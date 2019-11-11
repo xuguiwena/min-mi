@@ -25,7 +25,7 @@ img{
 input{
 	outline:none;	
 }
-.clearfix{
+.clearfix{ 
 	*zoom:1;	
 }
 .clearfix:after{
@@ -36,6 +36,6 @@ input{
 	visibility:hidden;	
 }
 .contain {
-	width: 1240px;
-
+	width: 1226px;
+	margin: 0 auto;
 }

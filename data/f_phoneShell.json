@@ -1,0 +1,79 @@
+[
+    {
+        "class" : "配件",
+        "title": "Redmi Note 7 洞洞保护壳（创意镂空） 黑色",
+        "img" :"img/f_img10004.jpg",
+        "Nprice": "29元",
+        "Yprice": "39元",
+        "code": "f_a1",
+        "text":"新品",
+        "pic":"",
+        "goodsColor": [
+            {
+                "type": "Redmi Note 7 洞洞保护壳（创意镂空） 黑色",
+                "color": "img/f_img10004.jpg"
+            }
+        ]
+    },
+
+    {
+        "class": "全部手机",
+        "title": "小米9 硅胶保护套 蓝色",
+        "img": "img/f_img10007.jpg",
+        "Nprice": "19元",
+        "Yprice": "39元",
+        "code": "f_a2",
+        "text":"",
+        "pic":"img/f_parts58.png",
+        "goodsColor": [
+            { 
+                "type": "小米9 硅胶保护套 蓝色",
+                "color": "img/f_img10007.jpg"
+            },
+            {
+                "type": "小米9 硅胶保护套 黑色",
+                "color": "img/f_img10024.png"
+            }
+        ]
+    },
+
+    {
+        "class": "全部手机",
+        "title": "MIX 2S 液态硅胶保护壳 红色",
+        "img": "img/f_img10029.jpg",
+        "Nprice": "19.9元",
+        "Yprice": "39元",
+        "code": "f_a3",
+        "text":"",
+        "pic":"img/f_parts58.png",
+        "goodsColor": [
+            {
+                "type": "MIX 2S 液态硅胶保护壳 红色",
+                "color": "img/f_img10029.jpg"
+            }
+        ]
+    },
+
+    {
+        "class": "全部手机",
+        "title": "小米9 硅胶保护套 蓝色",
+        "img": "img/f_img10007.jpg",
+        "Nprice": "19元",
+        "Yprice": "39元",
+        "code": "f_a2",
+        "text":"",
+        "pic":"img/f_parts58.png",
+        "goodsColor": [
+            { 
+                "type": "小米9 硅胶保护套 蓝色",
+                "color": "img/f_img10007.jpg"
+            },
+            {
+                "type": "小米9 硅胶保护套 黑色",
+                "color": "img/f_img10024.png"
+            }
+        ]
+    }
+
+
+]

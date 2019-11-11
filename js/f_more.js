@@ -71,7 +71,7 @@ $(function () {
       var patchPanel = json.patchPanel
       var goodSound = json.goodSound
       var lampTools = json.lampTools
-      var router = json.router
+      var router = json.router 
       var clean = json.clean
       var parts = json.parts
       var source = json.source
@@ -134,16 +134,16 @@ $(function () {
   $('.goods_inner').on('click', 'ul li a', function () {
 
     var code = $(this).parent().attr('code')
-        // console.log(code);
+        console.log(this);
         var codeArr = []
         //尾插，改变原数组  
         codeArr.push(code)
         //本地存储数据需要json字符串
         var codeStr = JSON.stringify({"goods":codeArr})
         localStorage.setItem("goods",codeStr)
+        // 跳转页面
+        $(this).attr('href','test.html') 
   })
-
-
 
 })
 
