@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="siteNav">
-        <div class="container">
-            <!-- 城市切换 -->
-            <div class="siteLeft">
-                <a href="#" class="show iconfont icon-dizhi" style="color:rgb(241, 2, 21)">广东</a>
+    <!-- 首页头部 -->
+    <div id="header">
+        <!-- 首页头部版心 -->
+        <div class="siteNav container clearfix">
+            <!-- 头部左边-选择城市 -->
+            <div class="siteLeft ">
+                <a href="javascript:void(0)" class="iconfont icon-dizhi" style="color:rgb(241, 2, 21)" id="show"></a>
+                <span class="ui-areamini-text " id="show_text">广东</span>
+
                 <div class="list_city">
                     <ul id="list">
                         <li>北京</li>
@@ -54,46 +58,885 @@
                     </ul>
                 </div>
             </div>
-            <!-- 头部导航栏 -->
+            <!-- 头部中间-导航栏 -->
             <div class="siteCenter">
-                <ul>
-                    <li><a href="#">小米商城</a></li>
-                    <li>|</li>
-                    <li><a href="#">MIUI</a></li>
-                    <li>|</li>
-                    <li><a href="#">loT</a></li>
-                    <li>|</li>
-                    <li><a href="#">云服务</a></li>
-                    <li>|</li>
-                    <li><a href="#">金融</a></li>
-                    <li>|</li>
-                    <li><a href="#">有品</a></li>
-                    <li>|</li>
-                    <li><a href="#">小爱开放平台</a></li>
-                    <li>|</li>
-                    <li><a href="#">企业团购</a></li>
-                    <li>|</li>
-                    <li><a href="#">资质证照</a></li>
-                    <li>|</li>
-                    <li><a href="#">协议规则</a></li>
-                    <li>|</li>
-                    <li><a href="#">下载app</a></li>
-                    <li>|</li>
-                    <li><a href="#">Select Location</a></li>
+                <ul class="clearfix">
+                    <li><a href="javascript:void(0)">小米商城</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">MIUI</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">LOT</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">云服务</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">金融</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">有品</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">小爱开放平台</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">企业团购</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">资质证照</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">协议规则</a></li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">下载APP</a>
+                        <div class="QRcode"></div>
+                        <div class="xm_text"></div>
+                    </li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">Slelect Region</a></li>
                 </ul>
             </div>
-            <!-- 登陆和购物车模块 -->
-            <div class="siteRight">
-                <ul>
-                    <li><a href="#">登录</a></li>
-                    <li>|</li>
-                    <li><a href="#">注册</a></li>
-                    <li>|</li>
-                    <li><a href="#">消息通知</a></li>
+            <!-- 导航栏右边-购物车 -->
+            <div class="cart">
+                <a href="javascript:void(0)"><i class="iconfont icon-gwc"></i>购物车<span class="numbers">(0)</span></a>
+                <div class="carts">
+                    <p>购物车中还没有商品，赶紧选购吧!</p>
+                </div>
+                <div class="fullcar">
+                    <!-- <ul class="car-list">
+                            <li>
+                                <a href="javascript:void(0)"><img src="./img/shoppingcar/1.jpg" alt="">米家互联网</a><span class="car-price">2999*1</span>
+                            </li>
+                       </ul>
+                       <div class="total">
+                           <p><span class="nums">共1件商品<br><i class="price">2999元</i></span><a href="javascript:void(0)">去购物车结算</a></p>
+                       </div> -->
+                </div>
+            </div>
+            <!-- 登录 -->
+            <div class="login">
+                <ul class="clearfix">
+                    <!-- 下面的a标签链接登录模块 -->
+                    <li><a href="b_login.html">登陆</a></li>
+                    <li> | </li>
+                    <li>
+                        <!-- 下面的a标签链接注册模块 -->
+                        <a href="b_register.html">注册</a>
+                        <div class="denglu">
+                            <div class="username"><a href="javascript:void(0)">1234567890</a> <i class="iconfont icon-arrow"></i></div>
+                            <ul class="dlcg">
+                                <li><a href="javascript:void(0)">个人中心</a></li>
+                                <li><a href="javascript:void(0)">评价晒单</a></li>
+                                <li><a href="javascript:void(0)">我的喜欢</a></li>
+                                <li><a href="javascript:void(0)">小米帐号</a></li>
+                                <li class="exit"><a href="javascript:void(0)">退出登录</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> | </li>
+                    <li><a href="javascript:void(0)">消息通知</a></li>
                 </ul>
-                <a href="#" class="car iconfont icon-shoppingtrolley">&nbsp;购物车(0)</a>
             </div>
         </div>
     </div>
+<!-- logo、主导航及搜索栏 -->
+    <div id="Nav">
+        <div class="warp container clearfix">
+            <!-- logo图 -->
+            <div class="logo">
+                <h1>
+                    <a href="javascript:void(0)" title="小米官网"><img src="img/logo.jpg" class="logo1"></a>
+                </h1>
+            </div>
+            <!-- 主导航 -->
+            <div class="nav">
+                <ul class="clearfix">
+                    <li></li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">小米手机</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">Redmi 红米</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">电视</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">笔记本</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">家电</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">路由器</a>
+                    </li>
+                    <li class="show-li">
+                        <a href="javascript:void(0)" class="show-list">智能硬件</a>
+                    </li>
+                    <li><a href="javascript:void(0)">服务</a></li>
+                    <li><a href="javascript:void(0)">社区</a></li>
+                </ul>
+            </div>
+            <!-- 搜索框 -->
+            <div class="search">
+                <form class="form">
+                    <div class="ipt">
+                        <input type="text" name="search">
+                        <div class="search_hot">
+                            <!-- 下面两个a标签链接到热搜界面 -->
+                            <a href="javascript:void(0)" class="img-click" code="abc4">小米9 Pro 5G</a>
+                            <a href="javascript:void(0)" class="img-click" code="abc5">Redmi Note 8</a>
+                        </div>
+                    </div>
+                    <span class="fdj"><i class="iconfont icon-search"></i></span>
+                </form>
+                <ul class="search_txt"></ul>
+            </div>
+        </div>
+        <!-- 滑过显示区域 -->
+        <div class="show">
+            <ul class="container clearfix show_ul">
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj1.jpg"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米CC9 Pro</a>
+                    </div>
+                    <p>2799元起</p>
+                    <div class="new">
+                        <p>新品</p>
+                    </div>
+                </li>
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj2.jpg"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米9 Pro 5G</a>
+                    </div>
+                    <p>3699元起</p>
+                    <div class="new">
+                        <p>新品</p>
+                    </div>
+                </li>
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj3.jpg"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米MIX Alpha</a>
+                    </div>
+                    <p>19999元</p>
+                    <div class="new none">
+                        <p>新品</p>
+                    </div>
+                </li>
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj4.jpg"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米CC9</a>
+                    </div>
+                    <p>1699元</p>
+                    <div class="new">
+                        <p>新品</p>
+                    </div>
+                </li>
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj5.png"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米CC9e</a>
+                    </div>
+                    <p>1099元起</p>
+                    <div class="new none">
+                        <p>新品</p>
+                    </div>
+                </li>
+                <li class="wzr-li img-click">
+                    <div class="img">
+                        <a href="javascript:void(0)"><img src="./img/show/sj6.png"></a>
+                    </div>
+                    <div class="phone">
+                        <a href="javascript:void(0)">小米CC9 美图定制版</a>
+                    </div>
+                    <p>2199元</p>
+                    <div class="new">
+                        <p>新品</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<div id="banner">
+        <div class="banner container">
+<div class="b_menu">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">手机 电话卡</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj1.png" alt="" code="e_sj1"><span>小米CC9 Pro</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj2.png" alt="" code="e_sj2"><span>Redmi 8A</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj3.jpg" alt="" code="e_sj3"><span>Redmi 8</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj4.jpg" alt="" code="e_sj4"><span>小米MIX Alpha</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj5.png" alt="" code="e_sj5"><span>小米9 Pro 5G</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj6.jpg" alt="" code="e_sj6"><span>Redmi K20 Pro 尊享版</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj7.jpg" alt="" code="e_sj7"><span>Redmi Note8 Pro</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj8.png" alt="" code="e_sj8"><span>Redmi Note8</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj9.jpg" alt="" code="e_sj9"><span>小米CC9</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj10.png" alt="" code="e_sj10"><span>小米CC美图定制版</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj11.png" alt="" code="e_sj11"><span>小米CC9e</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj12.png" alt="" code="e_sj12"><span>小米9 </span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj13.png" alt="" code="e_sj13"><span>小米MIX 3</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj14.png" alt="" code="e_sj14"><span>小米Max 3</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj15.png" alt="" code="e_sj15"><span>黑鲨手机2 Pro</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj16.png" alt="" code="e_sj16"><span>Redmi K20</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj17.png" alt="" code="e_sj17"><span>Redmi 7A</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj18.png" alt="" code="e_sj18"><span>Redmi 7</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj19.png" alt="" code="e_sj19"><span>Redmi Note7 Pro</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj20.png" alt="" code="e_sj20"><span>Redmi Note7</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj21.png" alt="" code="e_sj21"><span>移动4G+专区</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj22.png" alt="" code="e_sj22"><span>小米移动电话卡</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj23.png" alt="" code="e_sj23"><span>手机上门维修</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/sjdhk/sj24.png" alt="" code="e_sj24"><span>云服务空间月卡</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">电视 盒子</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds1.jpg" alt=""><span>小米电视5 55英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds2.png" alt=""><span>小米电视5 65英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds3.png" alt=""><span>小米电视5 75英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds4.png" alt=""><span>小米电视5 Pro 55英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds5.jpg" alt=""><span>小米电视5 Pro 65英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds6.png" alt=""><span>小米电视5 Pro 75英寸</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds7.png" alt=""><span>Redmi 红米电视 70英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds8.jpg" alt=""><span>全面屏电视Pro 65英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds9.jpg" alt=""><span>全面屏电视Pro 55英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds10.png" alt=""><span>小米壁画电视 65英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds11.jpg" alt=""><span>小米全面屏电视</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds12.jpg" alt=""><span>小米电视4A 32英寸</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds13.png" alt=""><span>小米电视4A 43英寸青春版</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds14.jpg" alt=""><span>小米电视4A 49英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds15.png" alt=""><span>小米电视4A 50英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds16.png" alt=""><span>小米电视4A 55英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds17.png" alt=""><span>小米电视4A 58英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds18.png" alt=""><span>小米电视4A 65英寸</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds19.png" alt=""><span>小米电视4A 32英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds20.jpg" alt=""><span>小米电视4A 40英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds21.png" alt=""><span>小米电视4A 43英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds22.png" alt=""><span>小米电视4A 50英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds23.jpg" alt=""><span>小米电视4A 55英寸</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dshz/ds24.png" alt=""><span>小米电视4X 43英寸</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">笔记本 平板</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb1.jpg" alt=""><span>小米笔记本 15.6"</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb2.jpg" alt=""><span>小米笔记本 13.3"</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb3.png" alt=""><span>小米笔记本 12.5"</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb4.jpg" alt=""><span>RedmiBook 14</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb5.png" alt=""><span>小米游戏本</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb6.jpg" alt=""><span>小米平板4</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb7.jpg" alt=""><span>键盘</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb8.jpg" alt=""><span>鼠标/鼠标垫</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb9.jpg" alt=""><span>转接器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb10.jpg" alt=""><span>平板配件</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb11.jpg" alt=""><span>笔记本双肩包</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/bjbpb/bjb12.jpg" alt=""><span>小米笔记本内胆包</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="">家电 插线板</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb1.png" alt=""><span>冰箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb2.png" alt=""><span>立式空调</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb3.jpg" alt=""><span>壁挂空调</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb4.jpg" alt=""><span>滚筒洗衣机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb5.png" alt=""><span>Redmi全自动波轮洗衣机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb6.jpg" alt=""><span>净水器</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb7.jpg" alt=""><span>微波炉</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb8.jpg" alt=""><span>电烤箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb9.jpg" alt=""><span>扫地机器人</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb10.jpg" alt=""><span>吸尘器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb11.png" alt=""><span>空气净化器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb12.jpg" alt=""><span>电饭煲</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb13.jpg" alt=""><span>电磁炉</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb14.jpg" alt=""><span>电水壶</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb15.jpg" alt=""><span>滤水壶</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb16.jpg" alt=""><span>落地风扇</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb17.jpg" alt=""><span>投影仪</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb18.jpg" alt=""><span>灯具</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb19.jpg" alt=""><span>插线板</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb20.jpg" alt=""><span>新风机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb21.jpg" alt=""><span>电暖气</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb22.jpg" alt=""><span>电压力锅</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb23.jpg" alt=""><span>料理机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jdcxb/cb24.jpg" alt=""><span>电煮壶</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">出行 穿戴</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd1.jpg" alt=""><span>小米手表</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd2.jpg" alt=""><span>手环手表</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd3.jpg" alt=""><span>VR</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd4.jpg" alt=""><span>平衡车</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd5.jpg" alt=""><span>滑板车</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd6.jpg" alt=""><span>车载逆变器</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd7.jpg" alt=""><span>平衡车配件</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd8.jpg" alt=""><span>智能后视镜</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd9.jpg" alt=""><span>智能记录仪</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd10.jpg" alt=""><span>车载空气净化器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd11.jpg" alt=""><span>无线车充</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd12.jpg" alt=""><span>充气宝</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/cxcd/cd13.jpg" alt=""><span>平衡轮</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">智能 路由器</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly1.jpg" alt=""><span>打印机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly2.jpg" alt=""><span>喷墨打印机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly3.jpg" alt=""><span>喷墨打印机墨水</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly4.jpg" alt=""><span>路由器/span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly5.jpg" alt=""><span>智能家庭</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly6.jpg" alt=""><span>对讲机</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly7.jpg" alt=""><span>无人机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly8.jpg" alt=""><span>摄像机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly9.jpg" alt=""><span>照相机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly10.jpg" alt=""><span>智能门锁</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly11.jpg" alt=""><span>视频门铃</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly12.jpg" alt=""><span>小爱老师</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly13.jpg" alt=""><span>小爱音箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly14.jpg" alt=""><span>云服务空间年卡</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/znlyq/ly15.jpg" alt=""><span>云服务空间月卡</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">电源 配件</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy1.jpg" alt=""><span>移动电源</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy2.jpg" alt=""><span>数据线</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy3.jpg" alt=""><span>车充</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy4.jpg" alt=""><span>无线充</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy5.jpg" alt=""><span>电池</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy6.jpg" alt=""><span>自拍杆</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy7.jpg" alt=""><span>手机壳</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy8.jpg" alt=""><span>手机贴膜</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy9.jpg" alt=""><span>手机支架</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy10.jpg" alt=""><span>平板配件</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy11.jpg" alt=""><span>黑鲨配件</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/dypj/dy12.jpg" alt=""><span>其它配件</span></a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">健康 儿童</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk1.jpg" alt=""><span>洗手机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk2.jpg" alt=""><span>剃须刀</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk3.jpg" alt=""><span>日光镜</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk4.jpg" alt=""><span>牙刷</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk5.jpg" alt=""><span>吹风机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk6.jpg" alt=""><span>体重秤</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk7.jpg" alt=""><span>体脂秤</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk8.jpg" alt=""><span>早教启智</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk9.jpg" alt=""><span>遥控电动</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk10.jpg" alt=""><span>益智积木</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk11.jpg" alt=""><span>儿童手表</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk12.jpg" alt=""><span>儿童滑板车</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk13.jpg" alt=""><span>米兔拉杆箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk14.jpg" alt=""><span>自行车</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk15.jpg" alt=""><span>婴儿推车</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk16.jpg" alt=""><span>儿童书包</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk17.jpg" alt=""><span>婴儿理发器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk18.jpg" alt=""><span>儿童保温杯</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk19.jpg" alt=""><span>健身车</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk20.jpg" alt=""><span>走步机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/jket/jk21.jpg" alt=""><span>走读笔</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">耳机 音箱</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej1.jpg" alt=""><span>音箱 Pro</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej2.jpg" alt=""><span>小爱音箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej3.jpg" alt=""><span>小米小爱音箱 Play版</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej4.jpg" alt=""><span>线控耳机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej5.jpg" alt=""><span>蓝牙耳机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej6.jpg" alt=""><span>头戴耳机</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej7.jpg" alt=""><span>品牌耳机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej8.jpg" alt=""><span>蓝牙音箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej9.jpg" alt=""><span>小米AI音箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej10.jpg" alt=""><span>小米小爱音箱HD</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej11.jpg" alt=""><span>K歌耳机</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej12.jpg" alt=""><span>小爱音箱 万能调控板</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/ejyx/ej13.jpg" alt=""><span>小爱触屏音箱</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">生活 箱包</a><i class="iconfont icon-youjiantou"></i>
+
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh1.jpg" alt=""><span>双肩包</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh2.jpg" alt=""><span>钱包</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh3.jpg" alt=""><span>旅行箱</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh4.jpg" alt=""><span>运动鞋</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh5.jpg" alt=""><span>服饰</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh6.jpg" alt=""><span>眼镜</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh7.jpg" alt=""><span>床垫</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh8.png" alt=""><span>枕头</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh9.png" alt=""><span>沙发</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh10.jpg" alt=""><span>饰品</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh11.jpg" alt=""><span>螺丝刀</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh12.jpg" alt=""><span>保温杯</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh13.jpg" alt=""><span>伞</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh14.jpg" alt=""><span>驱蚊器</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh15.jpg" alt=""><span>尤克里里</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh16.jpg" alt=""><span>毛巾/浴巾</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh17.jpg" alt=""><span>米兔</span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh18.jpg" alt=""><span>笔</span></a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="./img/shxb/sh19.jpg" alt=""><span>床</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+ </div>
+ </div>
 </body>
 </html>
